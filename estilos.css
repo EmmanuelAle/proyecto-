@@ -1,0 +1,90 @@
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: var(--azul-claro);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* ESTILOS DO HEADER */
+
+.encabezado {
+    top: 30px;
+    left: 180px;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    background-color: #5D04D9;
+    align-items:center;
+    justify-content: center;
+    padding: 15px 0px 15px 0
+}
+
+
+/* ESTILOS DA SEÇÃO VÍDEOS */
+
+.videos__container {
+   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3)
+}
+
+.videos__img__titulo {
+padding: 10px 10px 10px 20px;
+position: relative;
+}
+
+.mensaje {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mensaje__imagen {
+    width: 30%;
+}
+
+.mensaje__titulo {
+    color: var(--azul-medio);
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.buscar__input {
+    width: 260px;
+    height: 32px;
+    border: 1px solid rgb(211, 211, 211);
+    font-size: 16px;
+    padding: 3px 8px;
+    border: 1px solid rgb(211, 211, 211);
+    color: var(--azul-escuro);
+}
+
+.buscar__boton {
+    background-image: url(../img/encabezado/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: #F9F9F9;
+    border-left: none;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.encabezado__buscar {
+    display: flex;
+    justify-content: center;
+}
+
+@media(min-width: 834px) {
+
+    body {
+        height: 100vh;
+    }
+
+}
